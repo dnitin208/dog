@@ -1,0 +1,189 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+h1{
+     font-family: "Montserrat-Black" ;
+
+     font-size: 4rem;
+     line-height: 1.5;
+}
+
+.container-fluid{
+    padding-top:3%;
+    padding-bottom:7%;
+    padding-left:15%;
+    padding-right:15%;
+}
+/* 
+.btn1{
+    background-color: black;
+    color:white;
+    margin:auto;
+    padding:1%;
+}
+
+.btn2:hover{
+    background-color: black;
+    color:white;
+}
+.btn2{
+    background-color: red;
+    /* color:red; */
+    /* margin:auto;
+    padding:1%;
+} 
+*/ 
+
+/* navigation bar */
+
+p{
+    color: grey;
+}
+
+h3{
+    font: Bold;
+    font-weight: 22px;
+}
+
+h2{
+    font-family: Bold;
+    font-weight: 1000;
+    
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* title image */
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    /* z-index: -1; */
+    position: absolute;
+    right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+.icon:hover{
+    color: #ef817e;
+}
+.icon{
+   color: #ff4c68;
+   margin-bottom: 1rem;
+}
+
+/* testimonial section */
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #ef817e;
+    color: #fff;
+    
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding :7% 15%;
+}
+
+#press{
+    background-color: #ef817e;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+    
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+
+}
+
+/* make my website responsive on tablet/laptop/mobile */
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    /* font-weight: 300; */
+    padding: 7% 15%;
+    /* padding: 20px; */
+    /* padding-top: 60px; */
+    /* padding-sbottom: 60px; */
+    /* margin: 40px; */
+}
+
+.cta-head{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social{
+    margin: 20px 10px;
+}
